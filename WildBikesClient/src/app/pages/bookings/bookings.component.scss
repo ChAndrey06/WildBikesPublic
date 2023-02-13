@@ -1,0 +1,14 @@
+.container {
+  margin: 20px;
+
+  > .header {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .row-controls {
+    display: flex;
+    justify-content: center;
+  }
+}

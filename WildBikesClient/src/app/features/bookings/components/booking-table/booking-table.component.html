@@ -1,0 +1,15 @@
+<ag-grid-angular 
+  class="ag-theme-alpine" 
+  [rowData]="bookings"
+  [columnDefs]="columnDefs"
+  [defaultColDef]="defaultColDef"
+  [overlayLoadingTemplate]="overlayLoadingTemplate"
+  [overlayNoRowsTemplate]="overlayNoRowsTemplate"
+  (rowDoubleClicked)="onRowClicked($event)"
+  (gridReady)="onGridReady($event)"
+  (firstDataRendered)="onFirstDataRendered()"
+  (selectionChanged)="onSelectionChanged($event)"
+  domLayout="autoHeight"
+  rowSelection="multiple"
+>
+</ag-grid-angular>
